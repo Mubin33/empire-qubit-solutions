@@ -55,9 +55,9 @@ const Navbar = () => {
                             className="flex items-center cursor-pointer group select-none"
                         >
                             <img
-                                src="/Empire Qubit Solutions-color-logo.png"
+                                src="/empire-logo-black.png"
                                 alt="Empire Qubit Solutions"
-                                className={`transition-all duration-300 ${scrolled ? 'h-10' : 'h-10'
+                                className={`transition-all duration-300 ${scrolled ? 'h-13' : 'h-13'
                                     } object-contain`}
                             />
                         </Link>

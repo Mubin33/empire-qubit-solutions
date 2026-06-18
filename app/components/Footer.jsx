@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="space-y-4">
                         <div className="text-2xl font-bold text-white tracking-tight">
                             <Link href="/">
-                                <img src="/Empire Qubit Solutions-white-logo.png" alt="" className="w-39" />
+                                <img src="/empire-logo-white.png" alt="" className="w-39" />
                             </Link>
                         </div>
                         <p className="text-sm leading-relaxed">
@@ -44,7 +44,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-white font-bold mb-6">Contact Us</h4>
                         <ul className="space-y-3 text-sm">
-                            <li>Empire Qubit Solutions Building, 2/F, McArthur Highway, Clark Freeport Area, Philippines 2009</li> 
+                            <li>New York</li> 
                             <li>zkhatun@empirequbit.com</li>
                             <li>+1 631 397 1781 (US)</li>
                         </ul>
