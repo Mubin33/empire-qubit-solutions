@@ -17,7 +17,7 @@ const TESTIMONIALS = [
         avatar: "https://randomuser.me/api/portraits/men/32.jpg"
     },
     {
-        quote: "Tolkora AI's personalized marketing assets have acted as a force multiplier for our creative team. We are producing 10x the content with the same headcount.",
+        quote: "Talkora AI's personalized marketing assets have acted as a force multiplier for our creative team. We are producing 10x the content with the same headcount.",
         author: "Elena Rodriguez",
         role: "CMO, BrightSpark Media",
         avatar: "https://randomuser.me/api/portraits/women/68.jpg"
@@ -97,7 +97,7 @@ const Testimonial = () => {
                         </button>
                         <button
                             onClick={nextTestimonial}
-                            className="w-10 h-10 rounded-full bg-[#77c2ff] flex items-center justify-center text-white hover:bg-emerald-500 transition-colors shadow-sm"
+                            className="w-10 h-10 rounded-full bg-[#BE123C] flex items-center justify-center text-white hover:bg-emerald-500 transition-colors shadow-sm"
                         >
                             <ChevronRight className="w-5 h-5" />
                         </button>

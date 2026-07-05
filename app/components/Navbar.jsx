@@ -48,14 +48,14 @@ const Navbar = () => {
                     ? 'bg-white shadow-lg shadow-black/5 py-3 px-6'
                     : 'bg-white backdrop-blur-md border border-white/10 py-3 px-6'
                     }`}>
-                    <div className="flex justify-between items-center">
+                    <div className="flex justify-between items-center pl-3">
                         {/* Logo */}
                         <Link
                             href="/"
                             className="flex items-center cursor-pointer group select-none"
                         >
                             <img
-                                src="/empire-logo-black.png"
+                                src="/logo/empire-logo-black.png"
                                 alt="Empire Qubit Solutions"
                                 className={`transition-all duration-300 ${scrolled ? 'h-13' : 'h-13'
                                     } object-contain`}
@@ -69,8 +69,8 @@ const Navbar = () => {
                                     key={link.name}
                                     href={link.path}
                                     className={`px-4 py-4 font-medium transition-all duration-200 text-sm tracking-wide rounded-full ${scrolled
-                                        ? 'text-slate-700 hover:text-[#77c2ff] hover:bg-slate-100'
-                                        : 'text-slate-700 hover:text-[#77c2ff] hover:bg-white/10'
+                                        ? 'text-slate-700 hover:text-[#BE123C] hover:bg-slate-100'
+                                        : 'text-slate-700 hover:text-[#BE123C] hover:bg-white/10'
                                         }`}
                                 >
                                     {link.name}
@@ -80,7 +80,7 @@ const Navbar = () => {
                             {/* CTA Button */}
                             <Link
                                 href="/contact"
-                                className="flex items-center px-6 py-2.5 rounded-full font-semibold text-sm tracking-wide text-white bg-linear-to-r from-[#187BCD] to-[#77c2ff] hover:from-[#77c2ff] hover:to-[#187BCD] transition-all duration-300 shadow-lg shadow-purple-500/20 ml-4"
+                                className="flex items-center px-6 py-2.5 rounded-full font-semibold text-sm tracking-wide text-white bg-linear-to-r from-[#BE123C] to-[#BE123C]/50 hover:from-[#BE123C]/50 hover:to-[#BE123C] transition-all duration-300 shadow-lg shadow-purple-500/20 ml-4"
                             >
                                 Schedule a Meeting
                             </Link>
@@ -137,7 +137,7 @@ const Navbar = () => {
                                     key={link.name}
                                     href={link.path}
                                     onClick={() => setIsOpen(false)}
-                                    className={`block text-3xl font-bold text-white hover:text-brandCuriousBlue transition-all duration-300 ${isOpen ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'
+                                    className={`block text-3xl font-bold text-white hover:text-[#BE123C] transition-all duration-300 ${isOpen ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'
                                         }`}
                                     style={{ transitionDelay: isOpen ? `${150 + index * 75}ms` : '0ms' }}
                                 >

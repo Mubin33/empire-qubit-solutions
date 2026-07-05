@@ -19,9 +19,9 @@ const CostEstimator = () => {
             name: "StandardAI Jump",
             hours: 100,
             price: 1500,
-            color: "text-brandCuriousBlue",
+            color: "text-[#BE123C]",
             borderColor: "border-brandCuriousBlue/20",
-            glowColor: "bg-brandCuriousBlue/5"
+            glowColor: "bg-[#BE123C]/5"
         },
         {
             tag: "AI Leading",
@@ -53,12 +53,12 @@ const CostEstimator = () => {
             <div className="container mx-auto px-4 relative z-10">
                 <div className="text-center mb-20">
                     <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 mb-6">
-                        <Calculator className="w-4 h-4 text-brandCuriousBlue" />
-                        <span className="text-xs font-bold text-brandCuriousBlue uppercase tracking-widest">Transparent Pricing</span>
+                        <Calculator className="w-4 h-4 text-[#BE123C]" />
+                        <span className="text-xs font-bold text-[#BE123C] uppercase tracking-widest">Transparent Pricing</span>
                     </div>
                     <h2 className="text-4xl md:text-6xl font-bold mb-6 tracking-tight">Estimated Build Cost</h2>
                     <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto font-medium">
-                        Based on <span className="text-brandCuriousBlue font-bold">$15/hour</span> — clear, honest estimates to help you plan your AI transformation.
+                        Based on <span className="text-[#BE123C] font-bold">$15/hour</span> — clear, honest estimates to help you plan your AI transformation.
                     </p>
                 </div>
 

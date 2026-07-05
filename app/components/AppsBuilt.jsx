@@ -110,7 +110,7 @@ const AppsBuilt = () => {
     <section className="py-24 bg-slate-50 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="text-center mb-32 md:mb-12">
-          <span className="text-brandCuriousBlue font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Portfolio</span>
+          <span className="text-[#BE123C] font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Portfolio</span>
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Apps We've Built</h2>
           <p className="text-slate-500 text-lg">
             From fitness to finance — explore the mobile apps we've crafted.
@@ -179,7 +179,7 @@ const AppsBuilt = () => {
                           href={item.link}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="relative z-10 bg-white text-slate-900 w-full py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-brandCuriousBlue hover:text-white transition-all shadow-xl transform translate-y-4 hover:translate-y-0 duration-300"
+                          className="relative z-10 bg-white text-slate-900 w-full py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-[#BE123C] hover:text-white transition-all shadow-xl transform translate-y-4 hover:translate-y-0 duration-300"
                         >
                           Visit App <ExternalLink size={18} />
                         </Link>

@@ -18,7 +18,7 @@ const CTA = () => {
                     <div className="relative z-10 max-w-4xl mx-auto">
                         <h2 className="text-4xl md:text-6xl font-bold text-white tracking-wide mb-8 leading-[1.1]">
                             Ready to Engineer Your <br className="hidden md:block" />
-                            <span className="text-transparent bg-clip-text bg-linear-to-r from-blue-400 to-emerald-400">Digital Future?</span>
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#BE123C] to-white">Digital Future?</span>
                         </h2>
 
                         <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-2xl mx-auto leading-relaxed">
@@ -28,7 +28,7 @@ const CTA = () => {
                         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                             <Link
                                 href="/contact"
-                                className="w-full sm:w-auto  bg-[#77c2ff] group flex items-center justify-center px-8 py-4 rounded-full font-bold text-slate-900 transition-all shadow-lg hover:shadow-emerald-500/25"
+                                className="w-full sm:w-auto  bg-[#BE123C] group flex items-center justify-center px-8 py-4 rounded-full font-bold text-white transition-all shadow-lg hover:shadow-emerald-500/25"
                             >
                                 <Calendar className="w-5 h-5 mr-3" />
                                 Schedule Consultation

@@ -33,7 +33,7 @@ const BackToTop = () => {
         <div className={`fixed bottom-10 right-10 z-99999 transition-all duration-500 ${isVisible ? 'opacity-100 translate-y-0 scale-100' : 'opacity-0 translate-y-10 scale-75 pointer-events-none'}`}>
             <button
                 onClick={scrollToTop}
-                className="w-14 h-14 bg-white/90 backdrop-blur-xl border border-slate-200 text-slate-900 rounded-full flex items-center justify-center shadow-2xl hover:bg-brandCuriousBlue hover:text-white hover:border-brandCuriousBlue transition-all duration-300 group active:scale-90"
+                className="w-14 h-14 bg-white/90 backdrop-blur-xl border border-slate-200 text-slate-900 rounded-full flex items-center justify-center shadow-2xl hover:bg-[#BE123C] hover:text-white hover:border-brandCuriousBlue transition-all duration-300 group active:scale-90"
                 aria-label="Back to top"
             >
                 <ArrowUp className="w-6 h-6 transform group-hover:-translate-y-1 transition-transform duration-300" />

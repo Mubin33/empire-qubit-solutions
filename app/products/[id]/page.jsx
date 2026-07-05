@@ -33,21 +33,21 @@ const ProductDetailsPage = async ({ params }) => {
             <section className="relative bg-slate-100 text-slate-900 pt-40 pb-32 overflow-hidden">
                 {/* Background Gradients */}
                 <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0">
-                    <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-blue-600 rounded-full blur-[120px] opacity-20"></div>
+                    <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-[#BE123C] rounded-full blur-[120px] opacity-20"></div>
                     <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-indigo-600 rounded-full blur-[120px] opacity-20"></div>
                 </div>
 
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <Link
                         href="/#products"
-                        className="inline-flex items-center text-slate-600 hover:text-blue-600 mb-8 transition-colors group"
+                        className="inline-flex items-center text-slate-600 hover:text-[#BE123C] mb-8 transition-colors group"
                     >
                         <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform" />
                         Back to Products
                     </Link>
 
                     <div className="max-w-4xl">
-                        <span className="block text-blue-600 font-bold tracking-[0.2em] text-sm uppercase mb-4 animate-fadeIn">
+                        <span className="block text-[#BE123C] font-bold tracking-[0.2em] text-sm uppercase mb-4 animate-fadeIn">
                             {product.tagline}
                         </span>
                         <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
@@ -60,14 +60,14 @@ const ProductDetailsPage = async ({ params }) => {
                         <div className="flex flex-wrap gap-4">
                             <Link
                                 href="/contact"
-                                className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition-all hover:scale-105 shadow-lg shadow-blue-900/50 flex items-center"
+                                className="bg-[#BE123C] text-white px-8 py-4 rounded-full font-bold hover:bg-[#BE123C]/60 transition-all hover:scale-105 shadow-lg shadow-blue-900/50 flex items-center"
                             >
                                 {product.cta || 'Get Started'}
                                 <ArrowRight className="w-5 h-5 ml-2" />
                             </Link>
                             <Link
                                 href="/contact"
-                                className="bg-blue-600 text-white px-8 py-4 rounded-full font-bold hover:bg-blue-700 transition-all border border-blue-700 flex items-center"
+                                className="bg-[#BE123C] text-white px-8 py-4 rounded-full font-bold hover:bg-[#BE123C]/60 transition-all border border-[#BE123C]/60 flex items-center"
                             >
                                 Request Demo
                             </Link>
@@ -100,7 +100,7 @@ const ProductDetailsPage = async ({ params }) => {
                                             <CheckCircle2 className="w-6 h-6 text-green-500 group-hover:scale-110 transition-transform" />
                                         </div>
                                         <div className="ml-4">
-                                            <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors">
+                                            <h3 className="text-lg font-bold text-slate-900 group-hover:text-[#BE123C] transition-colors">
                                                 {feature}
                                             </h3>
                                         </div>
@@ -125,7 +125,7 @@ const ProductDetailsPage = async ({ params }) => {
                             {product.howItWorks.map((step, index) => (
                                 <div key={index} className="relative">
                                     <div className="p-8 bg-slate-50 rounded-2xl border border-slate-100 h-full hover:shadow-xl transition-shadow duration-300">
-                                        <div className="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-xl font-bold mb-6 shadow-lg shadow-blue-500/30">
+                                        <div className="w-12 h-12 bg-[#BE123C] text-white rounded-xl flex items-center justify-center text-xl font-bold mb-6 shadow-lg shadow-blue-500/30">
                                             {index + 1}
                                         </div>
                                         <p className="text-slate-800 font-medium text-lg leading-relaxed">{step}</p>
@@ -212,7 +212,7 @@ const ProductDetailsPage = async ({ params }) => {
 
                         {/* White Label */}
                         {product.whiteLabel && (
-                            <div className="bg-linear-to-br from-blue-600 to-indigo-700 p-10 rounded-4xl shadow-xl text-white">
+                            <div className="bg-linear-to-br from-[#BE123C] to-[#BE123C]/70 p-10 rounded-4xl shadow-xl text-white">
                                 <div className="w-14 h-14 bg-white/20 rounded-2xl flex items-center justify-center mb-6 backdrop-blur-sm">
                                     <Layers className="w-7 h-7 text-white" />
                                 </div>
