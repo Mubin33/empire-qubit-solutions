@@ -54,7 +54,7 @@ const SolutionsPage = () => {
             <section className="py-24 bg-slate-950 text-white relative overflow-hidden">
                 <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_20%_20%,rgba(48,158,196,0.15),transparent_50%)]"></div>
                 <div className="container mx-auto px-4 relative z-10 text-center">
-                    <span className="text-brandCuriousBlue font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Our Capabilities</span>
+                    <span className="text-[#BE123C] font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Our Capabilities</span>
                     <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight italic">Enterprise Scaling <br />Solutions</h1>
                     <p className="text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed font-medium">
                         We build the technical foundation that allows your business to innovate faster, scale globally, and remain resilient in a volatile digital landscape.
@@ -81,12 +81,12 @@ const SolutionsPage = () => {
                                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
                                         {s.features.map((f, fi) => (
                                             <div key={fi} className="flex items-center space-x-3 text-sm font-bold text-slate-700">
-                                                <div className="w-1.5 h-1.5 rounded-full bg-brandCuriousBlue"></div>
+                                                <div className="w-1.5 h-1.5 rounded-full bg-[#BE123C]"></div>
                                                 <span>{f}</span>
                                             </div>
                                         ))}
                                     </div>
-                                    <Link href={s.link} className="inline-flex items-center font-bold text-brandCuriousBlue uppercase tracking-widest text-xs group/btn">
+                                    <Link href={s.link} className="inline-flex items-center font-bold text-[#BE123C] uppercase tracking-widest text-xs group/btn">
                                         View Category <ArrowRight className="ml-2 w-4 h-4 transform group-hover/btn:translate-x-1 transition-transform" />
                                     </Link>
                                 </div>
@@ -118,20 +118,20 @@ const SolutionsPage = () => {
                                         alt={product.name}
                                         className="w-full h-full object-contain filter drop-shadow-xl transform group-hover:scale-110 transition-transform duration-700"
                                     />
-                                    <div className="absolute top-6 left-6 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-[10px] font-black text-brandCuriousBlue uppercase tracking-widest border border-slate-200 shadow-sm">
+                                    <div className="absolute top-6 left-6 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-[10px] font-black text-[#BE123C] uppercase tracking-widest border border-slate-200 shadow-sm">
                                         Ecosystem Tool
                                     </div>
                                 </div>
                                 <div className="p-10 flex flex-col flex-1">
                                     <div className="flex-1">
-                                        <h3 className="text-2xl font-bold text-slate-900 mb-3 tracking-tight group-hover:text-brandCuriousBlue transition-colors">{product.name}</h3>
+                                        <h3 className="text-2xl font-bold text-slate-900 mb-3 tracking-tight group-hover:text-[#BE123C] transition-colors">{product.name}</h3>
                                         <p className="text-slate-500 text-sm font-medium leading-relaxed mb-6 line-clamp-2">
                                             {product.overview}
                                         </p>
                                         <div className="space-y-3 mb-8">
                                             {product.features.slice(0, 3).map((feature, idx) => (
                                                 <div key={idx} className="flex items-center text-xs font-bold text-slate-600">
-                                                    <Zap className="w-3 h-3 text-brandCuriousBlue mr-2 shrink-0" />
+                                                    <Zap className="w-3 h-3 text-[#BE123C] mr-2 shrink-0" />
                                                     {feature}
                                                 </div>
                                             ))}
@@ -139,7 +139,7 @@ const SolutionsPage = () => {
                                     </div>
                                     <Link
                                         href={`/products/${product.id}`}
-                                        className="w-full py-4 bg-slate-50 text-slate-900 rounded-2xl font-black text-[10px] uppercase tracking-widest hover:bg-brandCuriousBlue hover:text-white transition-all text-center flex items-center justify-center group/btn"
+                                        className="w-full py-4 bg-slate-50 text-slate-900 rounded-2xl font-black text-[10px] uppercase tracking-widest hover:bg-[#BE123C] hover:text-white transition-all text-center flex items-center justify-center group/btn"
                                     >
                                         View technical specs
                                         <Play className="ml-2 w-3 h-3 fill-current" />
@@ -154,8 +154,8 @@ const SolutionsPage = () => {
             {/* Ecosystem CTA */}
             <section className="py-32">
                 <div className="container mx-auto px-4">
-                    <div className="max-w-5xl mx-auto rounded-[4rem] bg-[#77c2ff] p-12 md:p-20 text-white relative overflow-hidden group">
-                        <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-brandCuriousBlue/90 rounded-full blur-[100px] transition-all group-hover:scale-125"></div>
+                    <div className="max-w-5xl mx-auto rounded-[4rem] bg-[#BE123C] p-12 md:p-20 text-white relative overflow-hidden group">
+                        <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-[#BE123C]/90 rounded-full blur-[100px] transition-all group-hover:scale-125"></div>
                         <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                             <div>
                                 <h2 className="text-4xl md:text-5xl font-bold mb-6 tracking-tight leading-none text-white">Custom Software <br />Engineering</h2>
@@ -167,13 +167,13 @@ const SolutionsPage = () => {
                                 </Link>
                             </div>
                             <div className="grid grid-cols-2 gap-6">
-                                <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                                    <Database className="w-8 h-8 mb-4 text-brandCuriousBlue" />
+                                <div className="p-8 rounded-3xl bg-white/40 border border-white/10 backdrop-blur-sm">
+                                    <Database className="w-8 h-8 mb-4 text-[#BE123C]" />
                                     <h4 className="font-bold mb-2">Scalable Tech</h4>
                                     <p className="text-xs text-purple-200">Built for millions.</p>
                                 </div>
-                                <div className="p-8 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                                    <Globe className="w-8 h-8 mb-4 text-brandCuriousBlue" />
+                                <div className="p-8 rounded-3xl bg-white/40 border border-white/10 backdrop-blur-sm">
+                                    <Globe className="w-8 h-8 mb-4 text-[#BE123C]" />
                                     <h4 className="font-bold mb-2">Global Ops</h4>
                                     <p className="text-xs text-purple-200">Manila to the world.</p>
                                 </div>

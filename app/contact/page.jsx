@@ -26,7 +26,7 @@ const ContactPage = () => {
                     </p>
                     <button
                         onClick={() => setFormState('idle')}
-                        className="text-brandCuriousBlue font-bold uppercase tracking-widest text-xs flex items-center justify-center mx-auto group"
+                        className="text-[#BE123C] font-bold uppercase tracking-widest text-xs flex items-center justify-center mx-auto group"
                     >
                         Send another request <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                     </button>
@@ -41,7 +41,7 @@ const ContactPage = () => {
             <section className="py-20 bg-slate-50">
                 <div className="container mx-auto px-4">
                     <div className="max-w-4xl mx-auto text-center">
-                        <span className="text-brandCuriousBlue font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Let's Connect</span>
+                        <span className="text-[#BE123C] font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Let's Connect</span>
                         <h1 className="text-5xl md:text-7xl font-bold text-slate-900 mb-8 tracking-tight">Schedule a Meeting</h1>
                         <p className="text-xl text-slate-500 leading-relaxed font-medium">
                             Ready to transform your enterprise with Agentic AI? <br className="hidden md:block" /> Tell us about your project and we'll engineer the perfect path forward.
@@ -60,7 +60,7 @@ const ContactPage = () => {
                                 <h2 className="text-3xl font-bold text-slate-900 mb-8 tracking-tight italic">Why meet with us?</h2>
                                 <div className="space-y-8">
                                     <div className="flex gap-6">
-                                        <div className="w-12 h-12 shrink-0 rounded-2xl bg-brandCuriousBlue/10 flex items-center justify-center text-brandCuriousBlue">
+                                        <div className="w-12 h-12 shrink-0 rounded-2xl bg-[#BE123C]/10 flex items-center justify-center text-[#BE123C]">
                                             <Shield className="w-6 h-6" />
                                         </div>
                                         <div>
@@ -89,20 +89,20 @@ const ContactPage = () => {
                                 </div>
                             </div>
 
-                            <div className="p-10 rounded-[2.5rem] bg-[#396991] text-white relative overflow-hidden">
-                                <div className="absolute top-0 right-0 w-32 h-32 bg-brandCuriousBlue/20 rounded-full blur-3xl"></div>
-                                <h3 className="font-bold mb-8 relative z-10 uppercase tracking-widest text-slate-400 text-xs">Direct Contact</h3>
+                            <div className="p-10 rounded-[2.5rem] bg-[#BE123C]/90 text-white relative overflow-hidden">
+                                <div className="absolute top-0 right-0 w-32 h-32 bg-[#BE123C]/20 rounded-full blur-3xl"></div>
+                                <h3 className="font-bold mb-8 relative z-10 uppercase tracking-widest text-slate-200 text-xs">Direct Contact</h3>
                                 <div className="space-y-6 relative z-10">
                                     <div className="flex items-center gap-4">
-                                        <Mail className="w-5 h-5 text-brandCuriousBlue" />
+                                        <Mail className="w-5 h-5 text-white" />
                                         <span className="font-medium text-slate-100">zkhatun@empirequbit.com</span>
                                     </div>
                                     <div className="flex items-center gap-4">
-                                        <Phone className="w-5 h-5 text-brandCuriousBlue" />
+                                        <Phone className="w-5 h-5 text-white" />
                                         <span className="font-medium text-slate-100">+1 631 397 1781 (US)</span>
                                     </div>
                                     <div className="flex items-start gap-4">
-                                        <MapPin className="w-5 h-5 text-brandCuriousBlue mt-1" />
+                                        <MapPin className="w-5 h-5 text-white mt-1" />
                                         <span className="font-medium text-slate-100">New York</span>
                                     </div>
                                 </div>

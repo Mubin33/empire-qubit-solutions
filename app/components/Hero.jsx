@@ -40,8 +40,8 @@ const Hero = () => {
                         {/* Pill Badge */}
                         <div className="inline-flex items-center bg-white/5 backdrop-blur-md border border-white/10 rounded-full px-5 py-2 mb-8 hover:bg-white/10 transition-colors cursor-default">
                             <span className="flex h-2 w-2 relative mr-3">
-                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#77c2ff] opacity-75"></span>
-                                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#77c2ff]"></span>
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#BE123C] opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#BE123C]"></span>
                             </span>
                             <span className="text-sm font-medium text-slate-300 tracking-wide">
                                 {heroData.badge.text}
@@ -52,7 +52,7 @@ const Hero = () => {
                         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-[1.1] mb-6">
                             {heroData.headline}
                             <br />
-                            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#77c2ff] via-purple-400 to-pink-500">
+                            <span className="text-transparent bg-clip-text bg-linear-to-r from-[#BE123C] to-white ">
                                 {heroData.headline2}
                             </span>
                         </h1>
@@ -69,7 +69,7 @@ const Hero = () => {
                                     <Link
                                         key={index}
                                         href={btn.link}
-                                        className="group relative px-8 py-4 rounded-full font-semibold text-sm tracking-wider text-white bg-[#77c2ff] hover:bg-[#0091ff] transition-all duration-300 shadow-lg shadow-purple-900/30 hover:shadow-cyan-500/30 flex items-center justify-center"
+                                        className="group relative px-8 py-4 rounded-full font-semibold text-sm tracking-wider text-white bg-[#BE123C] hover:bg-[#0091ff] transition-all duration-300 shadow-lg shadow-purple-900/30 hover:shadow-cyan-500/30 flex items-center justify-center"
                                     >
                                         {btn.text}
                                         <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />

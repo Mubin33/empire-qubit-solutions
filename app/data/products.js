@@ -58,7 +58,7 @@ export const PRODUCTS = [
 
     {
         id: 'tolkora-ai',
-        name: 'Tolkora AI',
+        name: 'Talkora AI',
         tagline: 'AI-Powered Incoming Call Handling',
         overview:
             'AI-powered call management system for 300+ enterprises with virtual numbers, smart routing, AI receptionist, and call summaries.',
