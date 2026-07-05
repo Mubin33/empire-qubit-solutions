@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="space-y-4">
                         <div className="text-2xl font-bold text-white tracking-tight">
                             <Link href="/">
-                                <img src="/empire-logo-white.png" alt="" className="w-39" />
+                                <img src="/logo/empire-logo-white.png" alt="" className="w-39" />
                             </Link>
                         </div>
                         <p className="text-sm leading-relaxed">
@@ -35,7 +35,7 @@ const Footer = () => {
                         <h4 className="text-white font-bold mb-6">Core Products</h4>
                         <ul className="space-y-3 text-sm">
                             <li><Link href="/products/agentic-ai" className="hover:text-white transition-colors">Agentic AI</Link></li>
-                            <li><Link href="/products/tolkora-ai" className="hover:text-white transition-colors">Tolkora AI</Link></li>
+                            <li><Link href="/products/tolkora-ai" className="hover:text-white transition-colors">Talkora AI</Link></li>
                             <li><Link href="/products/edu-os" className="hover:text-white transition-colors">EduOS</Link></li>
                             <li><Link href="/products/care-os" className="hover:text-white transition-colors">CareOS</Link></li>
                         </ul>

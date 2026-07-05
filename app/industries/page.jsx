@@ -78,7 +78,7 @@ const IndustriesPage = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {industries.map((ind, i) => (
                             <div key={i} className="group p-10 rounded-[2.5rem] bg-white border border-slate-100 hover:border-brandCuriousBlue/30 hover:shadow-2xl hover:shadow-slate-200/50 transition-all duration-500">
-                                <div className="w-16 h-16 rounded-2xl bg-slate-50 text-brandCuriousBlue flex items-center justify-center mb-8 group-hover:bg-brandCuriousBlue group-hover:text-white transition-all duration-500 group-hover:scale-110">
+                                <div className="w-16 h-16 rounded-2xl bg-slate-50 text-[#BE123C] flex items-center justify-center mb-8 group-hover:bg-[#BE123C] group-hover:text-white transition-all duration-500 group-hover:scale-110">
                                     {ind.icon}
                                 </div>
                                 <h3 className="text-xl font-bold text-slate-900 mb-4 tracking-tight">{ind.title}</h3>
@@ -86,8 +86,8 @@ const IndustriesPage = () => {
                                     {ind.desc}
                                 </p>
                                 <div className="pt-6 border-t border-slate-50 flex items-center justify-between">
-                                    <span className="text-[10px] font-black uppercase tracking-widest text-slate-400 group-hover:text-brandCuriousBlue">{ind.count}</span>
-                                    <ArrowRight className="w-4 h-4 text-slate-300 group-hover:text-brandCuriousBlue transform group-hover:translate-x-1 transition-all" />
+                                    <span className="text-[10px] font-black uppercase tracking-widest text-slate-400 group-hover:text-[#BE123C]">{ind.count}</span>
+                                    <ArrowRight className="w-4 h-4 text-slate-300 group-hover:text-[#BE123C] transform group-hover:translate-x-1 transition-all" />
                                 </div>
                             </div>
                         ))}
@@ -102,15 +102,15 @@ const IndustriesPage = () => {
                     <h2 className="text-4xl font-bold mb-12 tracking-tight">Need an Industry-Specific Build?</h2>
                     <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="p-10 rounded-[2.5rem] bg-white/5 border border-white/10 backdrop-blur-sm">
-                            <h4 className="text-2xl font-bold mb-4 text-brandCuriousBlue">Consult</h4>
+                            <h4 className="text-2xl font-bold mb-4 text-[#BE123C]">Consult</h4>
                             <p className="text-slate-400 text-sm">Deep discovery into your operational bottlenecks.</p>
                         </div>
                         <div className="p-10 rounded-[2.5rem] bg-white/5 border border-white/10 backdrop-blur-sm">
-                            <h4 className="text-2xl font-bold mb-4 text-brandCuriousBlue">Architect</h4>
+                            <h4 className="text-2xl font-bold mb-4 text-[#BE123C]">Architect</h4>
                             <p className="text-slate-400 text-sm">Designing systems that fit your specific vertical.</p>
                         </div>
                         <div className="p-10 rounded-[2.5rem] bg-white/5 border border-white/10 backdrop-blur-sm">
-                            <h4 className="text-2xl font-bold mb-4 text-brandCuriousBlue">Deploy</h4>
+                            <h4 className="text-2xl font-bold mb-4 text-[#BE123C]">Deploy</h4>
                             <p className="text-slate-400 text-sm">Global roll-out with local domain assurance.</p>
                         </div>
                     </div>

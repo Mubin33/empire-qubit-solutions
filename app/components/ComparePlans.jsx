@@ -27,7 +27,7 @@ const ComparePlans = () => {
         {
             name: "Standard",
             tagline: "Growth Scale",
-            color: "text-brandCuriousBlue",
+            color: "text-[#BE123C]",
             bgColor: "bg-blue-50",
             borderColor: "border-blue-100",
             buttonColor: "bg-blue-600 hover:bg-blue-700",
@@ -88,7 +88,7 @@ const ComparePlans = () => {
         <section className="py-32 bg-white relative">
             <div className="container mx-auto px-4">
                 <div className="text-center mb-20">
-                    <span className="text-brandCuriousBlue font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Select Your Tier</span>
+                    <span className="text-[#BE123C] font-bold text-xs uppercase tracking-[0.4em] mb-4 block">Select Your Tier</span>
                     <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6 tracking-tight">Compare Plans</h2>
                     <p className="text-slate-500 text-lg max-w-2xl mx-auto font-medium leading-relaxed">
                         Find the perfect architecture for your AI journey. Side-by-side comparison of our modular enterprise solutions.
@@ -141,7 +141,7 @@ const ComparePlans = () => {
                 </div>
 
                 <div className="mt-16 flex items-center justify-center space-x-3 text-slate-400 text-xs font-medium">
-                    <Info className="w-4 h-4 text-brandCuriousBlue" />
+                    <Info className="w-4 h-4 text-[#BE123C]" />
                     <p>Prices depend on specific requirements. Contact us for a precise quote.</p>
                 </div>
             </div>

@@ -70,7 +70,7 @@ const MetricCounter = () => {
     ];
 
     return (
-        <section className="py-20 bg-[#77c2ff] text-white relative overflow-hidden">
+        <section className="py-20 bg-[#BE123C] text-white relative overflow-hidden">
             {/* Background Decoration */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden opacity-20 pointer-events-none">
                 <div className="absolute -top-20 -left-20 w-96 h-96 bg-[#000000] rounded-full blur-[100px]"></div>
